@@ -6,11 +6,10 @@ permalink: /about/
 
 Hi! My name is Shujun He. I am currently a PhD student in chemical engineering at Texas A&M University. 
 Things I have worked on include coarse-grained DNA simulations, 
-computational protein design, molecular dynamics, and computational toxicology
-### More Information
+computational protein design, molecular dynamics, and computational toxicology.
 
-This is my personal website, where I share some of my private work, primarily involving deep learning,
-and its applications in scientific studies 
+This is my personal website, where I share some of my private work, involving programming and deep learning,
+and my personal insights on the world. 
 
 ### Contact me
 
