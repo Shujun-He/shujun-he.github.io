@@ -1,0 +1,11 @@
+I"Ý<p>Today we are going to look at Problem 40 from the book 50 Challenging Problems in Probability by Frederick Mosteller. However, instead of solving it analytically, we are going to use the Monte Carlo method (random sampling) to solve it.</p>
+
+<p>The problem goes like this:</p>
+
+<p><em>Shuffle an ordinary deck of 52 playing cards containing four aces.
+Then turn up cards from the top until the first ace appears. On the average, how many cards are required to produce the first ace?</em></p>
+
+<p>If you are dumbfounded, worry not, because so was I when I first saw this problem. It may seem like there is no expedient mathamatical method that would lead us to the answer. So what do we do? This is where Monte Carlo method comes in. You probably know that if you were to toss a coin, there would be a 50-50 chance of it being heads or tails. Now to verify that fact, what you would do, assuming you have a lot of free time, would be to simply toss it many times, and see what percentage of the total tosses ended up heads or tails. It would be unlikely for the percentages to be exactly 50% tails and 50% heads, but after tossing the coin many times, they would undoubtedly be very close to 50-50. The above is a case of using Monte Carlo methods to evaluate a problem deterministic in nature via stochastic sampling.</p>
+
+<p>So can we apply Monte Carlo methods help us here? Obviously cannot shuffle and draw cards in any reasonable amount of time in real life to obtain sufficient sampling. Luckily, we have the power of modern computers + programming to help us. In other words, we are going to simulate the situation using computers. It is easy to get sufficient sampling with computers, since computers are quite good at doing repetitive tasks.</p>
+:ET

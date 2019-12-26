@@ -1,0 +1,9 @@
+I"G<p>Today we are going to look at Problem 40 from the book 50 Challenging Problems in Probability by Frederick Mosteller. However, instead of solving it analytically, we are going to use Monte Carlo methods (random sampling) to solve it.</p>
+
+<p>The problem goes like this:</p>
+
+<p><em>Shuffle an ordinary deck of 52 playing cards containing four aces.
+Then turn up cards from the top until the first ace appears. On the average, how many cards are required to produce the first ace?</em></p>
+
+<p>If you are dumbfounded, worry not, because so was I when I first saw this problem.</p>
+:ET
