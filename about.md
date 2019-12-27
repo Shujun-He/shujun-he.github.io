@@ -3,6 +3,7 @@ layout: page
 permalink: /about/
 ---
 # Who I am
+
 Hi! My name is Shujun He. I am currently a PhD student in chemical engineering at the Texas A&M University. 
 
 # What I do
