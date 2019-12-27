@@ -53,6 +53,9 @@ h1 {
 
 h2 {
   font-size: 24px;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
@@ -76,6 +79,7 @@ a {
     color: $blue;
   }
 }
+
 
 ul, ol {
   margin: 15px 0;
