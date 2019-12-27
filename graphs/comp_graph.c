@@ -1,6 +1,6 @@
 digraph G {
 	graph [fontsize=16];
-	rankdir="LR";
+	rankdir="TB";
 	a1 [label=Input];
 	a2 [label="Matmul\noutput"];
 	a3 [label="Hidden\nstate"];

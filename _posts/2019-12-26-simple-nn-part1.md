@@ -42,7 +42,8 @@ $$\text{Softmax}(x_{i}) = \frac{\exp(x_i)}{\sum_j \exp(x_j)}.$$
 ## The computational graph
 Now that we have seen all components of our computational graph, let's visualize it
 
-![](/graphs/comp_graph.jpg)
+![](/graphs/comp_graph.png#center)
+
 In the end, the output is a set of probabilities for a classification problem. The largest probability is selected as the prediction. The graph above summarizes forward-propagation and how inference is done in our neural network. Now we see that the neural network is nothing but a set of elementary math operations.
 
 It is easy to see that all intermediate math operations are readily differentiable, which means we can apply chain rule to propagate gradients throughout the entire network. Such gradient propagation is known as back-propagtion, which we will talk about in detail in part II. Keep in mind that back-propagation is how we train our neural network.
