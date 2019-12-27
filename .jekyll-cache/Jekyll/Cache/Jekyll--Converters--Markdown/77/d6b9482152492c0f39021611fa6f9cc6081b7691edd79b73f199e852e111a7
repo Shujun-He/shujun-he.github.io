@@ -1,0 +1,27 @@
+I"„	<p>Neural networks may seem mysterious to most people, and thus theirs capabilities are often overestimated. However, in truth, any neural network is just a combination of elementary mathematical operations and in turn, a computational graph. In this post, I am going to show you to how to build a simple neural network with two layers and the math behind it. Part I here is <strong>the math</strong> and part II will be <strong>the code</strong>.</p>
+
+<p><img src="/images/nn.jpg" alt="" /></p>
+
+<!--more-->
+
+<p>You may have heard people talk about neurons in neural networks, and it is a pretty neat way of describing dot products with non-linear transforms but that is not how we will look at our neural network. As can be seen above, the neural network is a graph that consists of vertices and edges. To put it simply, we can consider the states of the neural network (input, hidden state, and output) as vertices; the intermediate math operations can then be considered the edges of the graph (in red and blue in the graph above). So overall, we have two types of edges:</p>
+<ul>
+  <li>Fully connected layers</li>
+  <li>Activations</li>
+</ul>
+
+<h2 id="the-fully-connected-layer">The fully connected layer</h2>
+<p>The fully connected layer is nothing more than a matrix multiplication operation, usually with a bias vector added to the matrix multiplication output:</p>
+
+<script type="math/tex; mode=display">\mathbf{O} = \mathbf{IW+b},</script>
+
+<p>where <script type="math/tex">\mathbf{O}</script> is the output vector of the fully connected layer, <script type="math/tex">\mathbf{I}</script> the input vector, <script type="math/tex">\mathbf{W}</script> the weight martrix, and <script type="math/tex">\mathbf{b}</script> the bias vector.
+Since it is a vector multiplied with a rectangular matrix, the fully connected layer is a set of dot products, with the input vector dotted with each column of the rectangular matrix <script type="math/tex">\mathbf{W}</script>. The fully connected layer gets the name because every column vector is connected to the input vector.</p>
+
+<h2 id="activations">Activations</h2>
+<p>Neural network activations are simply non-linear transforms, such as the hypertangent function. They are necessary because</p>
+<ul>
+  <li>Multiple layers of unactivated matmul operations reduce to one</li>
+  <li>Multiple layers of non-linear transforms are capable of approximating any complex function</li>
+</ul>
+:ET
