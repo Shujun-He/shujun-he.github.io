@@ -13,4 +13,4 @@ a chemical engineer with a focus in computations.
 
 ## Contact me
 
-If you are interested in the work I do or have questions about anything, email me at [shujun@tamu.com](mailto:shujun@tamu.edu).
+If you are interested in the work I do or have questions about anything, email me at [shujun@tamu.edu](mailto:shujun@tamu.edu).
