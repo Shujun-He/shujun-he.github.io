@@ -9,7 +9,8 @@ Hi! My name is Shujun He. I am currently a grad student in chemical engineering 
 # What I do
 
 Things I have worked on include coarse-grained DNA simulations, computational protein design, molecular dynamics, computational toxicology, and deep learning. By definition, I am
-a chemical engineer with a focus in computations. You can check out my publications on google scholar: https://scholar.google.com/citations?user=fMCd1LcAAAAJ&hl=en
+a chemical engineer with a focus in computations. You can check out my publications on google scholar: [Shujun's google scholar](https://scholar.google.com/citations?user=fMCd1LcAAAAJ&hl=en))
+
 
 ## Contact me
 
