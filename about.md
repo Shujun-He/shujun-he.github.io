@@ -4,7 +4,7 @@ permalink: /about/
 title: Who I am
 ---
 
-Hi! My name is Shujun He. I am currently a grad student in chemical engineering at the Texas A&M University. You can check out my [CV](https://github.com/Shujun-He/shujun-he.github.io/raw/master/cv_4.pdf)
+Hi! My name is Shujun He. I am currently a grad student in chemical engineering at the Texas A&M University. You can check out my [CV](https://github.com/Shujun-He/shujun-he.github.io/blob/master/cv_4.pdf)
 
 # What I do
 
